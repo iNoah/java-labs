@@ -1,2 +1,2 @@
 # java-labs
-Small projects for learning Java application development.
+Small labs for learning Java application development.
