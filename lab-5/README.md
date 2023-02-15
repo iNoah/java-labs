@@ -9,7 +9,8 @@ To demonstrate knowledge of
 - Output the Players Report to a file named players_report.txt
 
 **Note! Your jar file will run with no commandline arguments as it will be using default file names as input**
-- log.properties and players.txt 
+- log.properties and players.txt
+
 **Doesn’t run?... Well you know what happens**
 
 ## Logging
