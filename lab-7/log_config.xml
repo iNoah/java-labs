@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Configuration> 
+  <Appenders> 
+    <File name="FileLogger" fileName="lab.log" append="true"> 
+      <PatternLayout pattern="%d %t %-5p %c{2} (%F:%L) - %m%n"/> 
+    </File> 
+    <Console name="STDOUT" target="SYSTEM_OUT"> 
+      <PatternLayout pattern="%m%n"/> 
+    </Console> 
+  </Appenders> 
+  <Loggers> 
+    <Root level="INFO"> 
+      <AppenderRef ref="STDOUT"/> 
+      <AppenderRef ref="FileLogger"/> 
+    </Root> 
+    <logger name="a00123456.Lab5" level="DEBUG">
+        <AppenderRef ref="Console"/>
+    </logger>
+  </Loggers> 
+</Configuration>
